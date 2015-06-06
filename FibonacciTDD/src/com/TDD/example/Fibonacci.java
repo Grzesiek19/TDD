@@ -4,13 +4,15 @@ public class Fibonacci {
 
 	private int term;
 	
-	public Fibonacci(int term) {
+	public Fibonacci() {
 		this.term = term;
 		// TODO Auto-generated constructor stub
 	}
 
-	public int getFiboValue() {
-		// TODO Auto-generated method stub
+	public int getFiboValue(int term) {
+		if( term == 0){
+			return 0;
+		}
 		return 0;
 	}
 	
