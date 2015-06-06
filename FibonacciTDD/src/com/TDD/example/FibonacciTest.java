@@ -26,4 +26,11 @@ public class FibonacciTest {
 		int fiboValueFor_5 = fibo.getFiboValue(5);
 		assertEquals(5, fiboValueFor_5);
 	}
+	
+	@Test
+	public void testForResultFiboTermFor_10() {
+		Fibonacci fibo = new Fibonacci();
+		int fiboValueFor_10 = fibo.getFiboValue(10);
+		assertEquals(55, fiboValueFor_10);
+	}
 }
