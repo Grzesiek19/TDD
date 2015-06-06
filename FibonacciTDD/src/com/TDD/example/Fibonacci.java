@@ -9,7 +9,7 @@ public class Fibonacci {
 		// TODO Auto-generated constructor stub
 	}
 
-	public int getFiboValue(int term) {
+	public static int getFiboValue(int term) {
 		int fibonacci = 1;
 		if (term == 0) {
 			return 0;
@@ -28,5 +28,16 @@ public class Fibonacci {
 			return fibonacci;
 		}
 
+	}
+
+	public static int getFiboValuesSum(int MaxTerm) {
+		int FiboSum = 0;
+		for (int i = 0; i <= MaxTerm; i++) {
+
+			if (i % 2 == 0)
+				FiboSum += getFiboValue(i);
+
+		}
+		return FiboSum;
 	}
 }
