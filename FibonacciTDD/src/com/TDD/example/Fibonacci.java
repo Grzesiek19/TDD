@@ -34,10 +34,12 @@ public class Fibonacci {
 		int FiboSum = 0;
 		for (int i = 0; i <= MaxTerm; i++) {
 
-			if (i % 2 == 0)
+			if (i % 2 == 0 && getFiboValue(i) <= 4000000)
 				FiboSum += getFiboValue(i);
 
 		}
 		return FiboSum;
 	}
+	
+	
 }
