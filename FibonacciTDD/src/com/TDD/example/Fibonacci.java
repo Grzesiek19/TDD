@@ -15,9 +15,6 @@ public class Fibonacci {
 		int fibonacci = 1;
 		if (term == 0)
 			return 0;
-
-		else if (term == 1)
-			return 1;
 		return 0;
 	}
 }
