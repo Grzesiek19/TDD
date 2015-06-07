@@ -45,4 +45,10 @@ public class FibonacciTest {
 		Fibonacci fibo = new Fibonacci();
 		assertEquals(88, fibo.getFiboValuesSum(10));
 	}
+	
+	@Test
+	public void testEvenValueTermUntilValueOfTheTerm_4000000() {
+		Fibonacci fibo = new Fibonacci();
+		assertEquals(3524577, fibo.getFiboValuesSum(34));
+	}
 }
